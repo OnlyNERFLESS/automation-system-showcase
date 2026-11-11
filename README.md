@@ -50,7 +50,7 @@ Automatic sending is switched on one stage at a time.
 
 ## Stack
 
-Next.js · React · TypeScript · Motion · Tailwind · shadcn/ui · Node ·
+Next.js · React · TypeScript · Motion · Tailwind · Radix UI · Node ·
 PostgreSQL · Prisma
 
 ## Screens
