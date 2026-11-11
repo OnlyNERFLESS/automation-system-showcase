@@ -7,7 +7,7 @@ person on one dashboard.
 
 > This repository is a showcase. The source code is private.
 
-**Status:** in development. Stage 1 of 7 complete.
+**Status:** in development. Stage 2 of 7 complete.
 
 ---
 
@@ -41,8 +41,8 @@ Automatic sending is switched on one stage at a time.
 | Stage | Delivers | Status |
 | --- | --- | --- |
 | 1 | Specification | ✅ Done |
-| 2 | App shell: login, roles, layout, themes, EN / FA / AR with RTL | Next |
-| 3 | Mailbox connection; every email becomes a request (read only) | |
+| 2 | App shell: login, roles, layout, themes, EN / FA / AR with RTL | ✅ Done |
+| 3 | Mailbox connection; every email becomes a request (read only) | Next |
 | 4 | AI drafts, approved by a person | |
 | 5 | Customers, notification inbox, push | |
 | 6 | Pricing rules, outbound checks, staged automatic sending | |
@@ -53,7 +53,29 @@ Automatic sending is switched on one stage at a time.
 Next.js · React · TypeScript · Motion · Tailwind · shadcn/ui · Node ·
 PostgreSQL · Prisma
 
+## Screens
+
+The dashboard is built like a car's digital cockpit: calm instruments, and one
+lit line under the count that needs a decision. With no mailbox connected yet,
+the readouts show "no signal" rather than pretending to measure zero.
+
+![Dashboard, dark](screens/dashboard-dark.png)
+
+| Settings, light | Persian, right to left |
+| --- | --- |
+| ![Settings](screens/settings-light.png) | ![Persian dashboard](screens/dashboard-persian-rtl.png) |
+
+<img src="screens/phone-arabic.png" alt="Arabic on a phone" width="300">
+
 ## Updates
+
+### 2026-11-11: App shell
+- Sign-in with roles (owner, commercial, developer) and server-side sessions.
+- Dashboard, Requests, Customers, Updates, Settings and Support sections.
+- Light and dark themes, plus an accent colour picker; every colour the user
+  picks is adjusted automatically to stay readable (WCAG AA) in both themes.
+- English, Persian and Arabic, with the whole layout mirrored right to left.
+- Phone layout with a bottom navigation bar.
 
 ### 2026-11-11: Specification
 Requirements gathered and written up: roles, screens, request panel,
