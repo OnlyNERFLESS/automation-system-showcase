@@ -7,7 +7,7 @@ person on one dashboard.
 
 > This repository is a showcase. The source code is private.
 
-**Status:** in development. Stage 2 of 7 complete.
+**Status:** in development. Stage 3 of 7 built; AI reading switches on with the API key.
 
 ---
 
@@ -42,8 +42,8 @@ Automatic sending is switched on one stage at a time.
 | --- | --- | --- |
 | 1 | Specification | ✅ Done |
 | 2 | App shell: login, roles, layout, themes, EN / FA / AR with RTL | ✅ Done |
-| 3 | Mailbox connection; every email becomes a request (read only) | Next |
-| 4 | AI drafts, approved by a person | |
+| 3 | Mailbox connection; every email becomes a request (read only) | ✅ Built |
+| 4 | AI drafts, approved by a person | Next |
 | 5 | Customers, notification inbox, push | |
 | 6 | Pricing rules, outbound checks, staged automatic sending | |
 | 7 | Offers to past customers, support tickets | |
@@ -68,6 +68,22 @@ the readouts show "no signal" rather than pretending to measure zero.
 <img src="screens/phone-arabic.png" alt="Arabic on a phone" width="300">
 
 ## Updates
+
+### 2026-11-15: Mailboxes, Inbox and Requests
+- Connect Zoho, IMAP or POP3 mailboxes; the app signs in before saving and
+  stores the password encrypted.
+- Strictly read only: nothing is sent, moved, deleted or marked as read on the
+  mail server.
+- New **Inbox**: every mailbox in one place, with folders and full threads.
+  Email is shown as plain text only, never as HTML.
+- Every conversation becomes a numbered request; the AI reads each one into a
+  detail panel (product, quantity, price, payment, port, deadline) and flags
+  the ones that need a decision.
+- Persian and Arabic mail arrives intact, including older Windows encodings.
+
+![Inbox](screens/inbox.png)
+
+![Request panel](screens/request.png)
 
 ### 2026-11-11: App shell
 - Sign-in with roles (owner, commercial, developer) and server-side sessions.
