@@ -74,8 +74,9 @@ the readouts show "no signal" rather than pretending to measure zero.
   server, type the email and password, done. The app finds the right server
   itself and explains failures in plain words.
 - Settings split into tabs; a "Get started" checklist on the dashboard.
-- Support tickets with screenshots: the team reports problems or asks for
-  features, the developer replies and moves each ticket to done.
+- Support tickets with screenshots and a priority (Low, High, Very high):
+  the team reports problems or asks for features, the developer replies and
+  moves each ticket to done.
 - Notification bell with unread count, shown in each reader's language.
 
 ![Mailbox setup](screens/mailbox-setup.png)
