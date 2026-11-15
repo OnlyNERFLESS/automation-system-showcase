@@ -69,6 +69,22 @@ the readouts show "no signal" rather than pretending to measure zero.
 
 ## Updates
 
+### 2026-11-15: AI Assistant, redesigned
+- Teaching the AI now reads like briefing a new salesperson: the job is
+  laid out as the five steps of a deal, each with what to do, what never to
+  do, and what comes to the owner first, prefilled so nobody starts from a
+  blank page.
+- An overview shows what the AI knows and how far it is from ready, and
+  walks through three typical emails to show what it will do with each.
+- "Try it": paste an email, keep a good reply as an example (with undo), or
+  say in plain words what to change. The correction lands in the right step
+  and the reply is written again straight away.
+- Reviewed by five independent viewpoints (a first-time user, the owner, a
+  demanding user, a developer and an AI prompt engineer) with a judge
+  deciding the fixes.
+
+![The job, step by step](screens/ai-job.png)
+
 ### 2026-11-15: AI Assistant
 - A section where the owner teaches the AI: company facts it may state,
   products, terms, writing style and their own instructions in any language.
