@@ -46,7 +46,7 @@ Automatic sending is switched on one stage at a time.
 | 4 | AI drafts, approved by a person | Next |
 | 5 | Customers, notification inbox, push | |
 | 6 | Pricing rules, outbound checks, staged automatic sending | |
-| 7 | Offers to past customers, support tickets | |
+| 7 | Offers to past customers, support tickets | Tickets ✅ |
 
 ## Stack
 
@@ -68,6 +68,19 @@ the readouts show "no signal" rather than pretending to measure zero.
 <img src="screens/phone-arabic.png" alt="Arabic on a phone" width="300">
 
 ## Updates
+
+### 2026-11-15: Easier setup and support tickets
+- Connecting a mailbox is now three steps: pick Zoho, Gmail or another
+  server, type the email and password, done. The app finds the right server
+  itself and explains failures in plain words.
+- Settings split into tabs; a "Get started" checklist on the dashboard.
+- Support tickets with screenshots: the team reports problems or asks for
+  features, the developer replies and moves each ticket to done.
+- Notification bell with unread count, shown in each reader's language.
+
+![Mailbox setup](screens/mailbox-setup.png)
+
+![Get started and notifications](screens/dashboard-getting-started.png)
 
 ### 2026-11-15: Mailboxes, Inbox and Requests
 - Connect Zoho, IMAP or POP3 mailboxes; the app signs in before saving and
