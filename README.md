@@ -7,7 +7,7 @@ person on one dashboard.
 
 > This repository is a showcase. The source code is private.
 
-**Status:** in development. Stage 3 of 7 built; AI reading switches on with the API key.
+**Status:** in development. Stages 1–3 built, stage 4 (AI drafts) built; AI switches on with the API key.
 
 ---
 
@@ -43,7 +43,7 @@ Automatic sending is switched on one stage at a time.
 | 1 | Specification | ✅ Done |
 | 2 | App shell: login, roles, layout, themes, EN / FA / AR with RTL | ✅ Done |
 | 3 | Mailbox connection; every email becomes a request (read only) | ✅ Built |
-| 4 | AI drafts, approved by a person | Next |
+| 4 | AI drafts, approved by a person | ✅ Built (sending next) |
 | 5 | Customers, notification inbox, push | |
 | 6 | Pricing rules, outbound checks, staged automatic sending | |
 | 7 | Offers to past customers, support tickets | Tickets ✅ |
@@ -68,6 +68,20 @@ the readouts show "no signal" rather than pretending to measure zero.
 <img src="screens/phone-arabic.png" alt="Arabic on a phone" width="300">
 
 ## Updates
+
+### 2026-11-15: AI Assistant
+- A section where the owner teaches the AI: company facts it may state,
+  products, terms, writing style and their own instructions in any language.
+- Rules enforced in code, not just requested: words the company never wants
+  used, and any money amount, stop a reply until a person fixes it.
+- Each request gets a reply panel: the AI drafts, the owner edits and
+  approves. Every edit is kept as an example, so the AI learns the owner's
+  way of answering without any model training.
+- A test area and a full version history with one-click restore.
+
+![Reply panel](screens/ai-reply.png)
+
+![Instruction history](screens/ai-history.png)
 
 ### 2026-11-15: Easier setup and support tickets
 - Connecting a mailbox is now three steps: pick Zoho, Gmail or another
